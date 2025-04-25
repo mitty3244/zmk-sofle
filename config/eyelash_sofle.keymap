@@ -68,7 +68,7 @@
 &trans      &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP    &kp DOWN_ARROW   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &kp LEFT_ARROW   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &trans  &mkp LCLK       &mkp MCLK       &mkp LCLK        &trans       &kp RIGHT_ARROW  &trans     &trans    &kp INSERT  &trans     &trans            &trans
-&kp C_MUTE  &trans  &trans          &trans          &trans           &trans       &kp ENTER        &mo 2      &trans    &trans      &trans     &trans
+&kp C_MUTE  &mo 2   &trans          &trans          &trans           &trans       &kp ENTER        &mo 2      &trans    &trans      &trans     &trans
             >;
 
             display-name = "LAYER1";
