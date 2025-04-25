@@ -89,11 +89,11 @@
 
         layer_3 {
             bindings = <
-&kp TILDE  &kp F11  &kp F12       &trans          &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans          &kp DELETE
-&trans     &trans   &kp HOME      &kp UP_ARROW    &kp END    &kp PAGE_UP      &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
-&trans     &trans   &kp LEFT      &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans  &kp LBRC        &kp RBRC
-&trans     &trans   &trans        &kp INS         &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans     &trans   &kp LEFT_GUI  &trans          &trans     &mo 2            &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &kp F11  &kp F12       &trans          &trans     &trans           &trans      &trans  &trans  &trans  &trans  &trans          &kp DELETE
+&trans     &trans   &kp HOME      &kp UP_ARROW    &kp END    &kp PAGE_UP      &trans      &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
+&trans     &trans   &kp LEFT      &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &trans      &trans  &trans  &trans  &trans  &kp LBRC        &kp RBRC
+&trans     &trans   &trans        &kp INS         &trans     &trans           &trans      &trans  &trans  &trans  &trans  &trans          &trans
+&trans     &trans   &kp LEFT_GUI  &trans          &trans     &mo 2            &kp C_MUTE  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
